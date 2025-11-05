@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Profile Finder</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 id="mainTitle">Choose a Profile Platform</h1>
+
+  <div class="platforms" id="platforms">
+    <div class="platform" onclick="selectPlatform('github')">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub">
+      <span>GitHub</span>
+    </div>
+    <div class="platform" onclick="selectPlatform('linkedin')">
+      <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn">
+      <span>LinkedIn</span>
+    </div>
+    <div class="platform" onclick="selectPlatform('twitter')">
+      <img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter">
+      <span>Twitter</span>
+    </div>
+     <div class="platform" onclick="selectPlatform('threads')">
+      <img src="https://cdn-icons-png.flaticon.com/512/11823/11823292.png" alt="Threads">
+      <span>Threads</span>
+    </div>
+    <div class="platform" onclick="selectPlatform('instagram')">
+      <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram">
+      <span>Instagram</span>
+    </div>
+    <div class="platform" onclick="selectPlatform('snapchat')">
+      <img src="data:image/png;base64,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" alt="Snapchat">
+      <span>Snapchat</span>
+    </div>
+    <div class="platform" onclick="selectPlatform('youtube')">
+      <img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="YouTube">
+      <span>YouTube</span>
+    </div>
+    <div class="platform" onclick="selectPlatform('facebook')">
+      <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook">
+      <span>Facebook</span>
+    </div>
+
+    <div class="platform" onclick="selectPlatform('telegram')">
+      <img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" alt="Telegram">
+      <span>Telegram</span>
+    </div>
+  </div>
+
+  <div class="search-section" id="searchSection">
+    <h1 id="platformTitle"></h1>
+    <div class="search-box">
+      <input type="text" id="username" placeholder="Enter username..." />
+      <div class="button-group">
+        <button onclick="getProfile()">Search</button>
+        <button class="back-btn" onclick="goBack()">Back</button>
+      </div>
+    </div>
+
+    <p id="error" class="error">User not found! Please try again.</p>
+
+    <div class="profile-card" id="profileCard">
+      <div class="profile-header">
+        <img id="avatar" src="" alt="Avatar" />
+        <div>
+          <h2 id="name"></h2>
+          <p class="username" id="login"></p>
+        </div>
+      </div>
+
+      <p class="bio" id="bio"></p>
+
+      <div class="stats">
+        <div><strong>Followers</strong><br><span id="followers">0</span></div>
+        <div><strong>Followings</strong><br><span id="following">0</span></div>
+        <div><strong>Repos</strong><br><span id="repos">0</span></div>
+      </div>
+
+      <button class="check-btn" id="checkProfile" target="_blank">Check Profile</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,188 @@
+ * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      min-height: 100vh;
+      background: #f8f9fa;
+      padding: 40px 20px;
+    }
+
+    h1 {
+      margin-bottom: 30px;
+      font-size: 2rem;
+      color: #333;
+      text-align: center;
+    }
+
+    .platforms {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+      gap: 15px;
+      width: 100%;
+      max-width: 750px;
+      margin-bottom: 30px;
+    }
+
+    .platform {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .platform:hover {
+      background: #e8f1ff;
+      transform: scale(1.05);
+    }
+
+    .platform img {
+      width: 40px;
+      height: 40px;
+      margin-bottom: 10px;
+    }
+
+    .platform span {
+      font-size: 1rem;
+      color: #333;
+    }
+
+    .search-section {
+      display: none;
+      width: 100%;
+      max-width: 600px;
+      text-align: center;
+    }
+
+    .search-box {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      margin-bottom: 30px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    input {
+      flex: 1;
+      padding: 12px 15px;
+      font-size: 1rem;
+      border: none;
+      outline: none;
+    }
+
+    .button-group {
+      display: flex;
+    }
+
+    button {
+      padding: 12px 20px;
+      background: #444;
+      color: white;
+      border: none;
+      cursor: pointer;
+      font-size: 1rem;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      background: #222;
+    }
+
+    .back-btn {
+      background: #ff5555;
+      border-left: 1px solid #ccc;
+    }
+
+    .back-btn:hover {
+      background: #d63333;
+    }
+
+    .profile-card {
+      display: none;
+      background: white;
+      border-radius: 15px;
+      padding: 20px;
+      max-width: 500px;
+      width: 100%;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      transform: rotate(-1deg);
+      transition: 0.3s;
+    }
+
+    .profile-card:hover {
+      transform: rotate(0deg) scale(1.02);
+    }
+
+    .profile-header {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .profile-header img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      margin-right: 20px;
+    }
+
+    .profile-header h2 {
+      margin: 0;
+      font-size: 1.5rem;
+      color: #111;
+    }
+
+    .username {
+      color: #555;
+      font-size: 0.95rem;
+    }
+
+    .bio {
+      font-size: 0.95rem;
+      margin-bottom: 15px;
+      color: #444;
+    }
+
+    .stats {
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.95rem;
+      color: #111;
+      margin-top: 10px;
+    }
+
+    .check-btn {
+      margin-top: 15px;
+      background: #0077cc;
+      color: white;
+      padding: 8px 15px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .check-btn:hover {
+      background: #005fa3;
+    }
+
+    .error {
+      color: red;
+      margin-top: 15px;
+      display: none;
+    }
