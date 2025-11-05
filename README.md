@@ -6,21 +6,13 @@ With simple navigation and platform icons, users can instantly jump to a person�
 
 ✨ Features
 
-🔗 Search profiles across popular social platforms (GitHub, Instagram, Snapchat, etc.)
+🔗 Search profiles across popular social platforms (GitHub,Linkedin,Twitter,Threads, Instagram,Snapchat,Youtube,Facebook,Telegram etc.)
 
 📱 Mobile-friendly design with smooth UI
 
 ⚡ Fast and lightweight — no backend required
 
 🎨 Clean layout and easy-to-use interface
-
-🛠️ Technologies Used
-
-HTML5 – Structure
-
-CSS3 – Styling and responsiveness
-
-JavaScript (Vanilla JS) – Logic and interactivity
 
 👤 Developer
 
