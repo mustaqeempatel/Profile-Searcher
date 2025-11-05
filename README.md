@@ -1,2 +1,29 @@
-# Profile-Searcher
-🔍 Profile Searcher  Profile Searcher is a modern web application built using HTML, CSS, and JavaScript that allows users to easily search and access profiles from multiple social media platforms — all from one clean, minimal interface.  
+🔍 Profile Searcher
+
+Profile Searcher is a modern web application built using HTML, CSS, and JavaScript that allows users to easily search and access profiles from multiple social media platforms — all from one clean, minimal interface.
+
+With simple navigation and platform icons, users can instantly jump to a person’s public profile without needing to switch between different apps or browsers.
+
+✨ Features
+
+🔗 Search profiles across popular social platforms (GitHub, Instagram, Snapchat, etc.)
+
+📱 Mobile-friendly design with smooth UI
+
+⚡ Fast and lightweight — no backend required
+
+🎨 Clean layout and easy-to-use interface
+
+🛠️ Technologies Used
+
+HTML5 – Structure
+
+CSS3 – Styling and responsiveness
+
+JavaScript (Vanilla JS) – Logic and interactivity
+
+👤 Developer
+
+Mustaqeem Patel
+Frontend Developer & UI Designer
+💡 Passionate about creating interactive and user-focused web projects using pure web technologies.
